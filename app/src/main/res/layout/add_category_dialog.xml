@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:orientation="vertical"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rounded_box"
+    android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+<de.hdodenhof.circleimageview.CircleImageView
+    android:id="@+id/image"
+    android:layout_width="85dp"
+    android:layout_height="85dp"
+    app:civ_border_width="2dp"
+    app:civ_border_color="@color/colorAccent"
+    android:src="@drawable/placeholder"
+    android:scaleType="centerCrop"
+    android:layout_gravity="center_horizontal"
+    android:layout_margin="16dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=" tap above to select your category image"
+        android:layout_gravity="center"/>
+
+    <EditText
+        android:id="@+id/categoryname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_margin="16dp"
+        android:background="@drawable/rounded_box"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_default"
+        android:elevation="1dp"
+        android:hint="Enter Category Name"
+        android:inputType="textPersonName" />
+    <Button
+        android:id="@+id/add"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/rounded_corners"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:layout_gravity="center"/>
+
+
+</LinearLayout>

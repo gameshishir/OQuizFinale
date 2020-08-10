@@ -1,0 +1,77 @@
+{
+  "project_info": {
+    "project_number": "549586414586",
+    "firebase_url": "https://oquiz-aa3dd.firebaseio.com",
+    "project_id": "oquiz-aa3dd",
+    "storage_bucket": "oquiz-aa3dd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549586414586:android:f6d1b961d4a40e600d1243",
+        "android_client_info": {
+          "package_name": "com.example.oquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549586414586-0gg2ges9t484te1vep9gr7lrucnc1q62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.oquiz",
+            "certificate_hash": "b9407ff33dc6e284ada66db5f6c7399e3d976bd8"
+          }
+        },
+        {
+          "client_id": "549586414586-ndo43q7i0jn8k67g6hige9m75lu1vfh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgYCiyM7lGnjJ6HTgOb8e7zDFcKok27aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549586414586-ndo43q7i0jn8k67g6hige9m75lu1vfh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:549586414586:android:88e605055fd0e45d0d1243",
+        "android_client_info": {
+          "package_name": "com.example.oquizadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "549586414586-ndo43q7i0jn8k67g6hige9m75lu1vfh3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgYCiyM7lGnjJ6HTgOb8e7zDFcKok27aw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "549586414586-ndo43q7i0jn8k67g6hige9m75lu1vfh3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
